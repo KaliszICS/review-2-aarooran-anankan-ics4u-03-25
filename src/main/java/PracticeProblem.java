@@ -40,19 +40,19 @@ public class PracticeProblem {
 		//Write question 3 code here
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("In (string): ");
+		System.out.print("In: ");
 		String string = in.nextLine();
-		System.out.println("\"" + string + "\"" + " was the text you wrote");
+		System.out.println(string + " was the text you wrote");
 	}
 
 	public static void q4() {
 		//Write question 4 code here
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("In (int): ");
+		System.out.print("In: ");
 		int four = in.nextInt();
 		in.nextLine();
-		System.out.println(four + " times 5 is: " + (four * 5));
+		System.out.println(four * 5);
 
 	}
 
@@ -60,10 +60,10 @@ public class PracticeProblem {
 		//Write question 5 code here
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("Is pizza a sandwich? In (boolean):");
+		System.out.print("In: ");
 		boolean five = in.nextBoolean();
 		in.nextLine();
-		System.out.println(five + " is a boolean, and also your answer");
+		System.out.println(five + " is a boolean");
 
 	}
 
@@ -71,10 +71,10 @@ public class PracticeProblem {
 		//Write question 6 code here
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("In (double): ");
+		System.out.print("In: ");
 		double six = in.nextDouble();
 		in.nextLine();
-		System.out.println(six + " minus 3.2 is: " + (six - 3.2));
+		System.out.println(six - 3.2);
 	}
 
 }
