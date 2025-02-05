@@ -15,9 +15,9 @@ public class PracticeProblem {
 		//Write question 1 code here
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("In (word): ");
+		System.out.print("In: ");
 		String answer = in.nextLine();
-		System.out.println("You inputted: " + answer);
+		System.out.println(answer);
 
 	}
 
@@ -25,14 +25,14 @@ public class PracticeProblem {
 		//Write question 2 code here
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("In (int 1): ");
+		System.out.print("In: ");
 		int one = in.nextInt();
 		in.nextLine();
-		System.out.print("In (int 2): ");
+		System.out.print("In: ");
 		int two = in.nextInt();
 		in.nextLine();
-		System.out.println("The quotient rounded down is: " + one/two);
-		System.out.println("The remainder is: " + one%two);
+		System.out.println(one/two);
+		System.out.println(one%two);
 
 	}
 
